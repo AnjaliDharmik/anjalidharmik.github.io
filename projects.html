@@ -29,6 +29,20 @@
   <link href="assets/css/main.css" rel="stylesheet">
   
   <style>
+	    ul {
+		  list-style-position: inside; /* Keeps bullets aligned with the text */
+		  padding-left: 0;            /* Removes the default indentation */
+		  margin-left: 0;             /* Ensures no margin is pushing it right */
+		  text-align: left;           /* Forces text alignment to the left */
+		}
+
+		li {
+		  text-align: left;           /* Ensures each item stays left-aligned */
+		}
+		h6, p {
+		  text-align: left;           /* Ensures each item stays left-aligned */
+		  color: #0056b3;
+		}
 	  .role {
 	  font-size: 1.1rem;
 	  font-weight: 600;
@@ -83,8 +97,8 @@
           </li>
           <li class="dropdown"><a href="#"><span>Projects</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-			  <li><a href="projects.html#Finance">Finance</a></li>
 			  <li><a href="projects.html#Marketing">Marketing</a></li>
+			  <li><a href="projects.html#Finance">Finance</a></li>
               <li><a href="projects.html#Healthcare">Healthcare</a></li>
               <li><a href="projects.html#Technology">Technology</a></li>
             </ul>
@@ -98,7 +112,154 @@
   </header>
 
   <main class="main">
-      <!-- ================= Finance ================= -->
+      
+    <!-- ================= Marketing ================= -->
+    <section id="Marketing" class="services section">
+	
+	  <div class="container section-title" data-aos="fade-up">
+        <h2>Marketing</h2>
+      </div>
+	  
+	  <div class="container">
+        <div class="row gy-4">
+		  
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item item-cyan position-relative">
+              <!--<a href="#" class="stretched-link">-->
+                <h3>Global Marketing Mix Modeling (MMM) Strategy & Revenue Intelligence</h3>
+				<h6>Market Scope: EMEA (Germany) & APJ (India, Japan)</h6>
+
+				  <p>
+					<ul>
+						<li>
+							<strong>Global MMM Orchestration:</strong> Directed the end-to-end operationalization of a Global Marketing Mix Modeling initiative, managing a complex technical roadmap across <strong>Germany, India, and Japan</strong> to govern analytics for <strong>$700M+</strong> in revenue.
+						</li>
+						<li>
+							<strong>Methodological Innovation:</strong> Led a multidisciplinary team of HP Data Scientists and external partners (XICA, GFK, NIQ) to architect an advanced <strong>Bayesian Belief Network</strong> and <strong>Multivariate Time Series</strong> framework, establishing causal directionality across 20+ media and economic variables.
+						</li>
+						<li>
+							<strong>Executive-Level Business Impact:</strong> Delivered quarterly strategic recommendations to regional leadership, identifying budget reallocations that drove a <strong>17–23% ROI improvement</strong> and quantifying that 13% of total sales were directly attributable to brand equity.
+						</li>
+						<li>
+							<strong>Brand Value Quantification:</strong> Developed a proprietary methodology linking Brand Health (BGS) to financial outcomes, demonstrating that a 1-point increase in brand score yielded <strong>$1.6M in incremental Laptop sales</strong> within the German market.
+						</li>
+						<li>
+							<strong>Optimization &amp; Simulation:</strong> Spearheaded the development of scenario-optimization tools using <strong>response curves and saturation modeling</strong> to guide high-stakes investments across Amazon Search, SEM, and Social channels (representing 90% of digital spend).
+						</li>
+						<li>
+							<strong>Cross-Functional Orchestration:</strong> Partnered with Data Engineering and Product teams to productize econometric models into automated <strong>AWS pipelines</strong>, ensuring high data integrity and real-time monitoring of media pressure and competitive price elasticities.
+						</li>
+						<li>
+							<strong>Market-Specific Intelligence:</strong>
+							<ul>
+								<li><strong>Germany:</strong> Diagnosed a 12.6% decline in distribution efficiency, successfully mitigating volume loss through optimized lower-funnel tactical shifts.</li>
+								<li><strong>India:</strong> Managed a strategic pivot of media investment from Google Search to Meta and Amazon, achieving a peak <strong>Media ROI of 4.02</strong>.</li>
+							</ul>
+						</li>
+					</ul>
+				  
+				  </p>
+            </div>
+          </div>
+		  
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item item-cyan position-relative">
+              <!--<a href="#" class="stretched-link">-->
+                <h3>Strategic Marketing Intelligence Platform: Automated Spend Governance &amp; MROI Attribution</h3>
+
+				  <p>
+					<ul>
+						<li>
+							<strong>Platform Architecture &amp; Ownership:</strong> Independently designed and scaled a comprehensive marketing ecosystem on <strong>Databricks AWS</strong> to govern <strong>$982M in media spend</strong>, providing full-funnel visibility into <strong>$403B in total revenue</strong>.
+						</li>
+						<li>
+							<strong>Deep Learning for Anomaly Detection:</strong> Engineered an ensemble of <strong>Autoencoders, LSTMs, and Isolation Forests</strong> to automate anomaly detection across <strong>70M+ records</strong>, effectively identifying budget leakage and ensuring data integrity for global spend metrics.
+						</li>
+						<li>
+							<strong>NLP &amp; Taxonomy Standardization:</strong> Developed a text normalization engine utilizing <strong>Sentence Transformers (all-MiniLM-L6-v2)</strong> and <strong>RAG</strong> with semantic similarity search to standardize fragmented marketing taxonomies across disparate global business groups.
+						</li>
+						<li>
+							<strong>Causal Inference &amp; Financial Attribution:</strong> Led the development of causal inference models to measure <strong>MROI and Spend Gap Analysis</strong>, identifying a <strong>26.3% ($39M) budget variance</strong> and optimizing resource allocation across global channels.
+						</li>
+						<li>
+							<strong>Production-Grade MLOps:</strong> Built and maintained a daily batch inference pipeline with automated <strong>MLOps alerting</strong>, significantly reducing manual data cleaning cycles and enabling real-time engineering notifications for data health degradation.
+						</li>
+						<li>
+							<strong>Strategic Visualization:</strong> Delivered a sophisticated suite of <strong>Power BI dashboards</strong> integrated with Databricks, providing executive-level insights into Campaign Performance, Variance Analysis, and MROI.
+						</li>
+					</ul>
+				  </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item item-cyan position-relative">
+              <!--<a href="#" class="stretched-link">-->
+                <h3>Lead Scoring &amp; Qualification Intelligence</h3>
+				<p><em>Oct 2025 – Apr 2026</em></p>
+
+				  <p>
+					<ul>
+						<li>
+							<strong>Strategic Leadership:</strong> Spearheaded a cross-functional initiative involving Product, Engineering, Marketing, and Sales to architect and roadmap an automated lead prioritization engine.
+						</li>
+						<li>
+							<strong>Machine Learning Excellence:</strong> Implemented a <strong>CatBoost</strong> gradient boosting model with rigorous hyperparameter tuning and weighted training to address class imbalance, achieving a <strong>73.8% ROC AUC</strong> and <strong>67.4% Recall</strong>.
+						</li>
+						<li>
+							<strong>Real-Time Engineering:</strong> Deployed a high-performance inference pipeline within <strong>Databricks AWS</strong> using Flask and REST APIs, achieving <strong>sub-100ms latency</strong> for instantaneous lead scoring at the point of entry.
+						</li>
+						<li>
+							<strong>MLOps &amp; Scalability:</strong> Developed a <strong>PySpark</strong> and MLOps batch pipeline to process <strong>25K daily leads</strong> while monitoring for data and concept drift, successfully maintaining a <strong>19% conversion rate</strong>.
+						</li>
+						<li>
+							<strong>Business Impact:</strong> Delivered interactive executive dashboards and automated workflows that reduced the sales response cycle from <strong>2 weeks to 2 days</strong>, drastically increasing speed-to-lead efficiency.
+						</li>
+					</ul>
+				  </p>
+            </div>
+          </div>
+		  
+		<div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item item-cyan position-relative">
+              <!--<a href="#" class="stretched-link">-->
+                <h3>GenAI Marketing Intelligence &amp; Recommendation Platform</h3>
+
+				  <p>
+					<ul>
+						<li>
+							<strong>GenAI Strategy &amp; Architecture:</strong> Directed the end-to-end architecture and roadmap for a domain-specific Generative AI platform, collaborating with Product, Marketing, and Engineering to automate complex strategic decision-making.
+						</li>
+						<li>
+							<strong>LLM Development &amp; Fine-Tuning:</strong> Orchestrated the fine-tuning of <strong>Llama 3.2</strong> for marketing-specific use cases, implementing a <strong>Human-in-the-Loop (HITL)</strong> framework using <strong>RLHF (Reinforcement Learning from Human Feedback)</strong> to align model outputs with core business logic.
+						</li>
+						<li>
+							<strong>NL2SQL &amp; Context Transformation:</strong> Engineered a sophisticated transformation layer using <strong>RoBERTa</strong>, enabling non-technical stakeholders to query complex SQL and Delta tables via natural language with standardized text-to-SQL/SQL-to-text conversion.
+						</li>
+						<li>
+							<strong>RAG &amp; Semantic Retrieval:</strong> Enhanced model precision through <strong>Retrieval-Augmented Generation (RAG)</strong>, integrating structured enterprise datasets with unstructured documentation via vector databases and semantic ranking.
+						</li>
+						<li>
+							<strong>High-Performance Deployment:</strong> Orchestrated a low-latency <strong>(sub-60ms)</strong> real-time inference pipeline on <strong>AWS</strong> using Flask and REST APIs, ensuring high responsiveness for conversational AI workflows across global business units.
+						</li>
+						<li>
+							<strong>MLOps &amp; Continuous Feedback:</strong> Established a robust AI pipeline using <strong>PySpark</strong> and MLOps to monitor for model/concept drift, integrating a direct user feedback loop to continuously refine recommendation quality.
+						</li>
+						<li>
+							<strong>Business Transformation:</strong> Scaled the platform across the global Marketing organization, achieving an <strong>89% customer satisfaction rate</strong> and accelerating the strategy-building cycle from <strong>2 weeks to 1 day</strong>.
+						</li>
+					</ul>
+				  </p>
+            </div>
+          </div>
+
+      </div>	
+
+      </div>
+	  
+	  </section>
+	  
+	  <!-- ================= Finance ================= -->
 	  <section id="Finance" class="services section">
 		  <div class="container section-title" data-aos="fade-up">
 			<h2>Finance</h2>
@@ -108,48 +269,97 @@
 		  <div class="container">
 			<div class="row gy-4 justify-content-center">
 
-			  <div class="col-lg-6 col-md-8 mx-auto">
-				<div class="service-item position-relative">
-
-				  <a href="https://github.com/AnjaliDharmik/Fraud_Detection" class="stretched-link">
-				  <h3>Fraud Detection</h3>
-				  </a>
-				  <h8>Machine Learning • Deep Learning • Graph Analytics • GNN<br>
-
-				  <b>Tech Stack:</b> Python, Pandas, Scikit-learn, XGBoost, NetworkX, PyTorch, Flask, PowerBI</h8>
+			  <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+				<div class="service-item item-cyan position-relative">
+				  <h3>Real-Time Fraud Detection &amp; Prevention System</h3>
+				  <p><strong>Objective:</strong> Architected an end-to-end ecosystem to detect and prevent financial crime in real-time payment transactions, focusing on loss mitigation and customer trust.</p>
 
 				  <p>					
-					<b>Overview:</b><br> 
-					• Designed end-to-end fraud detection system for e-commerce and Payment transactions<br> 
-					• Processed ~140K daily transactions across 12K+ customers<br> 
-					
-					<br><b>Modeling & Approach:</b><br> 
-					• Built baseline LightGBM model with hyperparameter tuning<br> 
-					• Improved performance using XGBoost and Graph Analytics<br> 
-					• Advanced detection using Graph Neural Networks (GNN)<br> 
-					• Handled class imbalance with weighted training<br> 
-					
-					<br><b>Performance:</b><br> 
-					• Improved fraud detection rate from 75% → 95%<br> 
-					• Reduced fraud losses by £200K+<br> 
-					
-					<br><b>Engineering & MLOps:</b><br> 
-					• Built real-time inference pipeline (&lt;100ms latency) using Flask<br> 
-					• Implemented MLOps with monitoring for data & concept drift<br> 
-					• Developed pipelines and dashboards in Databricks (AWS)<br> 
-					
-					<br><b>Impact:</b><br> 
-					• Enabled real-time fraud prevention with minimal user friction<br> 
-					• Delivered actionable insights for risk and product teams<br>
+					<h6>Technical Architecture &amp; Innovation</h6>
+						<ul>
+							<li>
+								<strong>Hybrid Modeling Approach:</strong>
+								<ul>
+									<li>Developed ensemble models using <strong>LightGBM and XGBoost</strong>, utilizing sophisticated hyperparameter tuning and SMOTE/weighted loss functions to handle extreme class imbalance.</li>
+									<li>Pioneered the use of <strong>Graph Convolutional Neural Networks (GCNs)</strong> to map relationship clusters, identifying "money mule" networks and complex circular payment patterns.</li>
+									<li>Leveraged <strong>LLMs for Multimodal Analysis</strong>, extracting fraud signals from unstructured data sources including transaction notes, KYC documents, and support call transcripts.</li>
+								</ul>
+							</li>
+							<li>
+								<strong>High-Performance Engineering:</strong>
+								<ul>
+									<li>Engineered a <strong>low-latency inference pipeline (&lt;100ms)</strong> using AWS and Flask REST APIs to meet the demands of "point-of-sale" decisioning.</li>
+									<li>Built scalable ETL and feature engineering workflows using <strong>PySpark</strong> to process 140,000+ daily transactions across a global customer base.</li>
+								</ul>
+							</li>
+							<li>
+								<strong>Robust MLOps &amp; Visualization:</strong>
+								<ul>
+									<li>Established a full <strong>MLOps lifecycle</strong> to monitor for data and concept drift, ensuring model reliability as fraudster tactics evolved.</li>
+									<li>Deployed <strong>Power BI dashboards</strong> to bridge the gap between raw data and executive strategy, providing real-time visibility into fraud trends.</li>
+								</ul>
+							</li>
+						</ul>
+
+						<h6>Measurable Business Impact</h6>
+						<ul>
+							<li><strong>Precision &amp; Recall:</strong> Boosted the fraud detection rate (Recall) from <strong>85% to 95%</strong>.</li>
+							<li><strong>Financial Health:</strong> Directly reduced quarterly fraud losses by over <strong>£200,000</strong>.</li>
+							<li><strong>Scale:</strong> Successfully secured transactions for <strong>12,000+ customers</strong> at a volume of <strong>37k/day</strong>.</li>
+						</ul>
 				  </p>
 
 				</div>
 			  </div>
+			  
+		<div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item item-cyan position-relative">
+              <h3>PowerDesk Edge: Event-Driven Automated Algorithmic Trading</h3>
+			   <p><strong>Overview:</strong> Developed a professional-grade algorithmic trading and backtesting platform engineered for short-term wholesale power markets, specifically the GB and European (Germany, Norway) intraday continuous markets.</p>
+              <p>
+			  <h6>Core Functionality & Architecture</h6>
+				<ul>
+					<li>
+						<strong>High-Fidelity Backtesting Engine:</strong> Architected an "offline analysis" framework to replay historical market order books and trade data, allowing for the rigorous simulation of strategy performance against historical liquidity.
+					</li>
+					<li>
+						<strong>Automated Strategy Execution:</strong> Deployed "aggressor strategies" designed to automatically execute power purchases by hitting available sell orders instantaneously upon signal detection.
+					</li>
+					<li>
+						<strong>Simulation-to-Live Parity:</strong> Engineered a seamless transition layer between backtesting and live execution environments, ensuring model predictability and reducing "slippage" during real-time market entry.
+					</li>
+				</ul>
+
+				<h6>Technical Sophistication & Performance</h6>
+				<ul>
+					<li>
+						<strong>Microsecond Liquidity Modeling:</strong> Implemented advanced modeling to account for order depth and liquidity constraints, verifying trade viability against counterparty availability at the microsecond level.
+					</li>
+					<li>
+						<strong>Latency Optimization (Reaction Time):</strong> Developed a precision measurement framework to quantify and simulate <strong>Reaction Time (R)</strong>, encompassing signal detection, computational overhead, and exchange communication latency.
+					</li>
+					<li>
+						<strong>Benchmark Integration & Alpha Generation:</strong> Integrated industry-standard metrics, including <strong>VWAP (Volume-Weighted Average Price)</strong>, to quantify the relative "Alpha" and financial efficacy of automated strategies.
+					</li>
+				</ul>
+
+				<h6>Market Connectivity & Data Engineering</h6>
+				<ul>
+					<li>
+						<strong>Exchange Interfacing:</strong> Orchestrated direct connectivity with <strong>EPEX Spot</strong> for the GB half-hourly continuous intraday market.
+					</li>
+					<li>
+						<strong>High-Volume Data Integration:</strong> Engineered pipelines to consume and process massive datasets of "Historic Trade and Order Data," capturing every bid, ask, and execution within the settlement period to inform model training.
+					</li>
+				</ul>
+			  </p>
+            </div>
+          </div>
 
 			</div>
 		  </div>
-		</section>  
 		  
+		  		  
 		  
           <!--<div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="service-item item-cyan position-relative">
@@ -171,134 +381,8 @@
             </div>
           </div>-->
 		  
-		  <!--<div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item item-cyan position-relative">
-              <a href="#" class="stretched-link">
-                <h3>PowerDesk Edge - UK Energy Trading Analysis</h3>
-              </a>
-              <p>Developed a trading algorithm to maximize profits from financial trades between two auctions of the day-ahead market in Great Britain's Energy Market. Data is collected from Nord Pool using web scraping and Applied Exploratory Data Analysis and Performed Preprocessing to gain the insights. Second part is to forecast price for first auction using Auction Data which has actual prices and second auction price using Demand Forecast Data, Performed Time Series Analysis using Linear Regression, XGBoost, LSTM and deep LSTM recurrent networks traded volumes in python and determined the optimal trading strategy.</p>
-            </div>
-          </div>-->
-
-      </div>
-
-      </div>
 	  
 	  </section>
-    <!-- ================= Marketing ================= -->
-    <section id="Marketing" class="services section">
-	
-	  <div class="container section-title" data-aos="fade-up">
-        <h2>Marketing</h2>
-      </div>
-	  
-	  <div class="container">
-        <div class="row gy-4">
-		  
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item item-cyan position-relative">
-              <!--<a href="#" class="stretched-link">-->
-                <h3>Marketing Mix Modeling (MMM) - Global Markets</h3>
-				<h6>Bayesian Modeling • ROI Optimization</h6>
-
-				  <p>
-					<b>Overview:</b><br>
-					• Led global Marketing Mix Modeling (MMM) and MROI initiatives across US, India, China, Japan, Germany<br>
-					• Quantified short-term, long-term & brand-driven impact<br><br>
-
-					<b>Approach:</b><br>
-					• Built Bayesian MMM framework (media, pricing, promotions, competitive activity)<br>
-					• Modeled response curves, lag, saturation & scenarios<br><br>
-
-					<b>Impact:</b><br>
-					• Improved ROI by 17–23%<br>
-					• Identified 26% sales driven by marketing<br>
-					• 13% contribution from brand equity<br>
-				  </p>
-              <!--</a>
-              <p>
-			  Led global Marketing Mix Modeling (MMM) and MROI initiatives across the US, India, China, Japan, and Germany to quantify short-term, long-term, and brand-driven incremental sales beyond last-touch attribution. Designed and operationalized a Bayesian MMM framework integrating media, pricing, promotions, competitive activity, and brand health metrics (BGS, SOV, campaign trackers), including response curve, lag, saturation, and scenario optimization analyses, while building in-house MMM capability for APAC and EMEA. Delivered actionable media mix and budget reallocation recommendations adopted by regional leadership, driving 17–23% ROI improvement and demonstrating 26% of sales driven by media and brand, including 13% from brand equity.
-			  </p>-->
-            </div>
-          </div>
-		  
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item item-cyan position-relative">
-              <!--<a href="#" class="stretched-link">-->
-                <h3>Multi-Touch Attribution (MTA) - Global Market</h3>
-				<h6>Attribution Modeling • Marketing Analytics</h6>
-
-				  <p>
-					<b>Overview:</b><br>
-					• Built MTA across 40+ countries & multiple product lines<br>
-					• Integrated OLS, HPW, Amazon, Flipkart & offline channels<br><br>
-
-					<b>Engineering:</b><br>
-					• Automated weekly attribution pipelines<br>
-					• Modeled channel-level CAC & ROI<br><br>
-
-					<b>Impact:</b><br>
-					• Identified 18–20% marketing-driven units<br>
-					• Reduced CAC from $54 to $40<br>
-				  </p>
-              <!--</a>
-              <p>Built and productionized end-to-end Multi-Touch Attribution (MTA) framework across 40+ countries and multiple product lines (CPS & Gaming) by integrating traffic, transaction, shipment, and LMS data across OLS, HPW, Amazon, Flipkart, and offline channels. Automated weekly attribution pipelines and channel-level modeling to quantify marketing-driven units, CAC, and ROI, uncovering 18-20% marketing-impacted units and reducing CAC from $54 to $40 through data-backed optimization.</p>-->
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item item-cyan position-relative">
-              <!--<a href="#" class="stretched-link">-->
-                <h3>Lead Qualification</h3>
-				<h6>Machine Learning • Classification</h6>
-
-				  <p>
-					<b>Overview:</b><br>
-					• Built ML-based lead scoring using 3 years of data<br><br>
-
-					<b>Approach:</b><br>
-					• Ensemble boosting for binary classification<br>
-					• End-to-end pipeline (ingestion → inference → reporting)<br><br>
-
-					<b>Impact:</b><br>
-					• 79% lead prioritization accuracy<br>
-					• Reduced lead volume by 62%<br>
-					• Increased conversion from 9% → 18%<br>
-				  </p>
-              <!--</a>
-              <p>Led Development and deployment of Machine learning based lead qualification project by ensemble Boosting Algorithm for Binary Classification on 3 years of historic data. Achieved 79% effectiveness in correctly prioritizing high-quality leads, reducing monthly lead volume by 62% and increasing projected conversion rate from 9% to 18%. Built an end-to-end pipeline for data ingestion, feature engineering, inference, decoding, and Delta table output, integrating predictions into Eloqua to prioritize leads, report daily qualified leads, and provide actionable insights for sales teams.</p>-->
-            </div>
-          </div>
-		  
-		<div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item item-cyan position-relative">
-              <!--<a href="#" class="stretched-link">-->
-                <h3>NEO - Next-Generation Marketing Intelligence Platform</h3>
-				<h6>Generative AI • LLM Applications</h6>
-
-				  <p>
-					<b>Overview:</b><br>
-					• Built GenAI-powered marketing intelligence platform<br><br>
-
-					<b>Technology:</b><br>
-					• Integrated SQLCoder, LLaMA & code generation models<br>
-					• Delivered insights, charts & analytics via AI<br><br>
-
-					<b>Impact:</b><br>
-					• Improved marketing productivity & decision-making<br>
-					• Enabled faster insight discovery for stakeholders<br>
-				  </p>
-              <!--</a>
-              <p>Designed and deployed state-of-the-art Generative AI models (finetuning, quantization, and evaluation) to power NEO, HP’s next-generation marketing intelligence platform. Integrated SQLCoder, LLaMA, and code generation capabilities to transform insight discovery, delivering data, charts, and analytic insights that boost marketing productivity and unlock strategic decision-making. Partnered with HP Marketing stakeholders to scope, prototype, and build innovative AI solutions for both cloud platforms, while leading cross-functional collaboration to deliver complex, enterprise-scale projects.</p>-->
-            </div>
-          </div>
-
-      </div>	
-
-      </div>
-	  
-	  </section>
-	  
 
 	  <section id="Healthcare" class="services section">
 	  
